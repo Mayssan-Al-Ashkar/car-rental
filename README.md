@@ -9,7 +9,7 @@ npm start
 ```bash
 composer install
 ```
-4- Start the backend server:
+-Start the backend server:
 ```bash
 php artisan serve
 ```
