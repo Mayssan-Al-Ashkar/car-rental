@@ -33,17 +33,7 @@ class CarController extends Controller
             'price' => $request->price,
             'available' => $request->available,
         ]);
-        /*DB::table('cars')->insert([
-            
-            'photo1' => $request->photo1,
-            'photo2' => $request->return_date,
-            'brand' => $request->brand,
-            'model' => $request->model,
-            'gearbox' => $request->gearbox,
-            'fuel_type' => $request->fuel_type,
-            'price' => $request->price,
-            'available' => $request->available,
-        ]);*/
+        
         return response()->json(['success' => true, 'data' => 'okok'], 201);
     }
 
